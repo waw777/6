@@ -12,6 +12,7 @@ namespace Pract6
         private double _start;
         private int _shag;
         private double _current;
+        //ура
 
      //   double IIndexableSeries.this[int index] => throw new NotImplementedException();
      public ArithmeticProgression(double start, int shag)
