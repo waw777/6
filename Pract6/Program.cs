@@ -17,6 +17,8 @@ namespace Pract6
             PrintSeries(geometricProgression, 6);
             arithmeticProgression.Reset();
             PrintIIndexable(geometricProgression, 3);
+            print(geometricProgression, 3);
+
         }
         private static void PrintSeries(ISeries series, int count)
         {
@@ -35,6 +37,12 @@ namespace Pract6
                 Console.WriteLine(indexable[i]);
              
             }
+        }
+        private static void print(IIndexable indexable, int count)
+        {
+            count = 4;
+            Console.WriteLine(indexable[count]);
+
         }
     }
 }
